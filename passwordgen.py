@@ -8,3 +8,5 @@ password = ''
 for c in range(length):
     password += random.choice(chars)
 print(password)
+
+input('Press ENTER to exit')
